@@ -6,6 +6,11 @@
     <title>Contact Us</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
+<head>
+    <script src="main.js" defer></script>
+</head>
+
 <body>
     <header>
         <h1>Contact Us</h1>
@@ -20,15 +25,15 @@
     <main>
         <section>
             <h2>Send Us a Message</h2>
-            <form action="mailto:23053081@saultcollege.ca" method="post" enctype="text/plain">
+            <form id="contactForm" action="mailto:23053081@saultcollege.ca" method="post" enctype="text/plain">
                 <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required><br>
+                <input type="text" id="name" name="name"><br>
 
                 <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required><br>
+                <input type="email" id="email" name="email"><br>
 
                 <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea><br>
+                <textarea id="message" name="message"></textarea><br>
                 <button type="submit">Send Message</button>
             </form>
         </section>

@@ -1,0 +1,4 @@
+Client-side JavaScript validation is useful for providing immediate feedback to users and reducing server load.
+However, it is not safe for a server to trust data received from a form because client-side validation can be bypassed.
+Users can disable JavaScript, manipulate the form data using browser developer tools, or send requests directly to the server 
+without using the form. Therefore, server-side validation is essential to ensure data integrity and security.
